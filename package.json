@@ -1,0 +1,27 @@
+{
+  "name": "restapp",
+  "version": "1.0.0",
+  "description": "\"# RESTApp\"",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewBart/RESTApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewBart/RESTApp/issues"
+  },
+  "homepage": "https://github.com/MatthewBart/RESTApp#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
