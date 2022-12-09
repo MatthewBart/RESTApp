@@ -1,0 +1,21 @@
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "userName": "Matthew",
+    "admin": true
+}
+
+### 
+Delete  http://localhost:3000/users/63931c58b3662c3226af1448
+
+### 
+PATCH  http://localhost:3000/users/63931c65b3662c3226af1451
+Content-Type: application/json
+
+{
+    "userName": "New UserName"
+}
